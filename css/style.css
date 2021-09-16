@@ -5,8 +5,7 @@
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
-  /* 1 */
+  font-family: 'Lobster', cursive;
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -112,7 +111,7 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0; }
 
 /**
  * Address styling not present in IE 8/9.
@@ -355,5 +354,33 @@ table {
 td,
 th {
   padding: 0; }
+
+header {
+  background-color: rgba(11, 8, 182, 0.7);
+  padding: 10px;
+  color: black;
+  border-bottom: 3px solid black;
+  position: relative;
+  margin: 0 0 400px; }
+
+.titulo, .titulo-principal, .navegar, .menu, li, ul {
+  display: inline-block; }
+
+.titulo {
+  width: 60%; }
+  .titulo .titulo-principal {
+    font-size: 70px;
+    padding: 20px 30px; }
+
+.navegar .menu a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-size: 30px; }
+
+.foto-principal {
+  width: 100%;
+  height: 500px;
+  position: absolute; }
 
 /*# sourceMappingURL=style.css.map */
