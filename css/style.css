@@ -355,32 +355,69 @@ td,
 th {
   padding: 0; }
 
+body {
+  background-color: #c4bdbd; }
+
 header {
-  background-color: rgba(11, 8, 182, 0.7);
+  background-color: none;
   padding: 10px;
   color: black;
-  border-bottom: 3px solid black;
   position: relative;
-  margin: 0 0 400px; }
+  margin: 0 0 100px; }
 
 .titulo, .titulo-principal, .navegar, .menu, li, ul {
   display: inline-block; }
 
 .titulo {
-  width: 60%; }
+  width: 65%; }
   .titulo .titulo-principal {
-    font-size: 70px;
+    font-size: 40px;
     padding: 20px 30px; }
 
 .navegar .menu a {
   text-decoration: none;
   color: black;
   padding: 20px;
-  font-size: 30px; }
+  font-size: 30px;
+  text-shadow: 0.1em 0.1em 0.3em #5c5555;
+  text-align: end; }
 
 .foto-principal {
   width: 100%;
   height: 500px;
   position: absolute; }
+
+main li {
+  display: block; }
+
+.apresentacao {
+  background-color: white; }
+
+.titulo-apresentacao {
+  position: relative;
+  margin: auto auto 210px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 0.1em 0.1em 0.3em #5c5555; }
+
+.contando-empresa {
+  padding: 0 10%;
+  background-color: white; }
+  .contando-empresa .titulo-contando-empresa {
+    display: inline-block;
+    padding: 60px 0 0;
+    font-size: 40px; }
+  .contando-empresa .lista-beneficios {
+    display: inline-block; }
+    .contando-empresa .lista-beneficios .beneficios {
+      font-size: 20px;
+      padding: 10px; }
+
+.onde-estamos {
+  margin: auto 10%; }
+
+.cotando-trabalho {
+  margin: auto 10%; }
 
 /*# sourceMappingURL=style.css.map */
