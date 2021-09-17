@@ -374,13 +374,19 @@ header {
     font-size: 40px;
     padding: 20px 30px; }
 
-.navegar .menu a {
+.navegar .opcao a {
   text-decoration: none;
-  color: black;
-  padding: 20px;
-  font-size: 30px;
-  text-shadow: 0.1em 0.1em 0.3em #5c5555;
-  text-align: end; }
+  color: white;
+  padding: 10px 15px;
+  font-size: 25px;
+  text-align: end;
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin: 10px;
+  background-color: #000;
+  transition: 5s; }
+  .navegar .opcao a:hover {
+    transform: scale(1.2); }
 
 .foto-principal {
   width: 100%;
@@ -402,22 +408,80 @@ main li {
   text-shadow: 0.1em 0.1em 0.3em #5c5555; }
 
 .contando-empresa {
-  padding: 0 10%;
-  background-color: white; }
+  background-color: white;
+  padding: 0 0 60px; }
   .contando-empresa .titulo-contando-empresa {
     display: inline-block;
     padding: 60px 0 0;
     font-size: 40px; }
   .contando-empresa .lista-beneficios {
-    display: inline-block; }
+    width: 50%;
+    display: inline-block;
+    margin: auto 10%;
+    padding: 0; }
     .contando-empresa .lista-beneficios .beneficios {
-      font-size: 20px;
-      padding: 10px; }
+      font-size: 25px;
+      padding: 10px 50px; }
+  .contando-empresa .mecanico-feliz {
+    padding: 50px 0 0; }
 
 .onde-estamos {
   margin: auto 10%; }
 
+.case-um {
+  display: inline-block; }
+  .case-um iframe {
+    width: 500px;
+    height: 300px;
+    padding: 60px 30px 60px 0; }
+
+.case-dois {
+  display: inline-block;
+  position: absolute;
+  padding: 60px 0; }
+  .case-dois .titulo-onde-estamos {
+    font-size: 40px; }
+  .case-dois .fala-onde-estamos {
+    font-size: 25px;
+    width: 70%; }
+
 .cotando-trabalho {
   margin: auto 10%; }
+
+.trabalho-um {
+  display: inline-block;
+  width: 50%; }
+  .trabalho-um .titulo-contando-trabalho {
+    font-size: 40px; }
+  .trabalho-um .contando-trabalho {
+    font-size: 25px; }
+
+.trabalho-dois {
+  display: inline-block; }
+  .trabalho-dois .fabrica-imagem {
+    width: 500px;
+    height: 300px;
+    padding: 60px 0 0; }
+
+.video {
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  margin: 30px 0 0;
+  background-image: url("../imagem/fundo-video.jfif"); }
+  .video iframe {
+    width: 500px;
+    height: 300px;
+    padding: 60px 30px 60px 0; }
+
+footer {
+  width: 100%;
+  background: black; }
+
+.titulo-fim {
+  font-size: 20px;
+  padding: 20px 10%;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
