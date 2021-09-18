@@ -402,11 +402,11 @@ main li {
 
 .titulo-apresentacao {
   position: relative;
-  margin: auto auto 210px;
+  margin: auto auto 140px;
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
-  text-shadow: 0.1em 0.1em 0.3em #5c5555; }
+  font-size: 70px;
+  text-shadow: 1px 1px 10px white; }
 
 .contando-empresa {
   background-color: white;
@@ -449,9 +449,7 @@ main li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 5%;
-  background-color: #c4bdbd;
-  width: 100%; }
+  margin: 0 5%; }
 
 .trabalho-um {
   display: inline-block;
@@ -468,17 +466,21 @@ main li {
     height: 300px;
     padding: 60px 0 0; }
 
-.titulo-video {
-  text-align: center;
-  padding: 40px 0 0; }
-
 .video {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
   text-align: center;
   width: 100%;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   margin: 30px 0 0;
   background-image: url("../imagem/fundo-video.jfif"); }
+  .video .titulo-video {
+    text-align: center;
+    padding: 40px 0 0;
+    text-shadow: 1px 1px 2px #3d3a3a; }
   .video iframe {
     width: 500px;
     height: 300px;
@@ -486,11 +488,50 @@ main li {
 
 footer {
   width: 100%;
-  background: black; }
+  background: url("../imagem/background.jpg");
+  border-top: 2px solid #000; }
 
 .titulo-fim {
   font-size: 20px;
   padding: 20px 10%;
-  color: white; }
+  color: black;
+  text-shadow: 1px 1px 2px #4e4949; }
+
+.paginaDois-header {
+  background: url("../imagem/background.jpg");
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000; }
+
+.titulo-principal-paginaDois {
+  font-size: 40px;
+  padding: 20px 30px; }
+
+.titulo-formulario {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto 40px; }
+
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 20% 100px; }
+
+.formulario .formulario-formulario {
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
+  .formulario .formulario-formulario .digito-formulario {
+    font-size: 25px;
+    margin: 5px; }
+  .formulario .formulario-formulario .formulario-botao {
+    color: white;
+    background-color: #000000;
+    border-color: #000000;
+    width: 160px;
+    margin: 20px 30% 0;
+    height: 40px;
+    border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
